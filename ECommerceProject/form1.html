@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply_Cannon</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <script>
+        function showAlert() {
+            alert("Your application has been received! We will reach out to you via email"); 
+        }
+    </script>
+</head>
+
+<body> 
+    <section id="header">
+        <p class="logo"><span style="color: red;">CAN</span>n<span style="color: red;">On</span></p> 
+        <div>
+          <ul id="nav">
+            <li><a class="btn" href="index.html">Home</a></li>
+            <li><a class="btn" href="handguns.html">HandGuns</a></li>
+            <li><a class="btn" href="rifle.html">Rifle</a></li> 
+            <li><a class="btn" href="sniper.html">SniperRifle</a></li>
+            <li><a class="btn" href="#rifle-about">About</a></li>
+          </ul>
+        </div>
+      </section>
+    <form>
+        <fieldset class="frm">
+
+            <legend class="txtt">
+                <h2>
+                    <span style="color: red;">Application Form</span>
+                </h2>
+            </legend>
+            <br>
+            <div>
+                <ul id="navbar">
+                    <li>
+                        <div class="inputbox">
+                            <input type="text" required placeholder="Name">
+                        </div>
+                        <br>
+                        <div class="inputbox">
+                            <input type="text" required placeholder="Fathers Name">
+                        </div>
+                        <br>
+                        <div class="inputbox">
+                            <input type="text" required placeholder="Phone">
+                        </div>
+                        <br>
+                        <div class="inputbox">
+                            <input type="text" required placeholder="Mail">
+                        </div>
+                        <br>
+                        <div class="inputbox">
+                            <span style="color: red;"> Date Of Birth: <input type="date" required
+                                    placeholder="Date of Birth">
+                        </div> <br></span>
+
+                        <div>
+                            <span style="color: red;">Gender</span>
+                            <span style="color: red;">Male :</span><input type="radio" name="my gender">
+                            <span style="color: red;">Female :</span><input type="radio" name="my gender">
+                            <span style="color: red;">Other :</span><input type="radio" name="my gender">
+                        </div> <br>
+
+                    </li>
+                    <li>
+                        <div>
+                            <br>  
+                            <br> <br><br>
+                            <!-- <textarea placeholder="HI"></textarea> --> 
+                            <textarea placeholder="Address" class="txt" rows="4" cols="50"></textarea>
+                        </div> <br>
+                        <div>
+                            <br>
+                            <textarea placeholder="Why would you need this firearm? Explain briefly
+            (Your answer will play vital role)" rows="10" cols="50" class="txt"></textarea>
+                        </div>
+                        <br>
+                        <div>
+                            <span style="color: red;">ID/Passport</span>
+                            &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;:<input
+                                type="file"><br><br>
+                            <span style="color: red;">Photo</span>
+                            &nbsp; &nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input
+                                type="file"> <br><br> 
+                                <span style="color: red;">Valuation Certificate</span>
+                            &nbsp; &nbsp;:<input type="file"><br><br> 
+                            <span style="color: red;">NOC</span>
+                            &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="file"><br><br>
+                            <span style="color: red;">Bank Statement</span>
+                             &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <input type="file"> <br><br>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="navba">
+                <div>
+                    <br>
+                    <button type="submit" class="btn" onclick="showAlert(); window.location.href = 'index.html'"; "index.h" ><span class="spn"></span>Submit</button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
